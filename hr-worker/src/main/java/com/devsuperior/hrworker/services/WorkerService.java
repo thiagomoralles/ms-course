@@ -21,6 +21,12 @@ public class WorkerService implements Serializable {
 	}
 	
 	public Worker findById(Long id) {
+		/*try {
+			Thread.sleep(1000L);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}*/
+		
 		return workerRepository.findById(id).get();
 	}
 }
