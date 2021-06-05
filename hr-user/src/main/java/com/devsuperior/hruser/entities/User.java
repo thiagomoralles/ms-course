@@ -32,7 +32,7 @@ public class User implements Serializable {
 	
 	private String name;
 	
-	private String emamil;
+	private String email;
 	
 	@EqualsAndHashCode.Exclude
 	private String password;
